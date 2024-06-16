@@ -7,6 +7,11 @@ body {
   background-color: hsl(47, 88%, 63%);
   font-family: "Figtree", sans-serif;
   padding: 70px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -83,8 +88,7 @@ a:hover {
 }
 
 @media (min-width: 375px) {
-  .container{
+  .container {
     max-width: 300px;
   }
-  
 }
